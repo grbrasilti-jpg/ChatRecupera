@@ -7,7 +7,7 @@ import { toast } from 'react-toastify';
 import { Box } from '@material-ui/core';
 import { IconButton } from '@material-ui/core';
 import Button from '@material-ui/core/Button';
-import { green, red } from '@material-ui/core/colors';
+import { blue, red } from '@material-ui/core/colors';
 import Paper from '@material-ui/core/Paper';
 import { makeStyles } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
@@ -309,7 +309,7 @@ export default function Researchreports() {
           }}
         >
           <div>
-            <CheckCircle style={{ color: green[500], marginBottom: '-6px' }} />
+            <CheckCircle style={{ color: blue[500], marginBottom: '-6px' }} />
             <span style={{ marginLeft: 5, marginBottom: 5 }}>
               Pesquisa ativa
             </span>

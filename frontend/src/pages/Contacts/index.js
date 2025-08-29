@@ -526,7 +526,7 @@ function getDateLastMessage(contact) {
                                     <TableCell align="center">
                                         {contact.active ? (
                                             <CheckCircleIcon
-                                                style={{ color: "green" }}
+                                                style={{ color: "blue" }}
                                                 fontSize="small"
                                             />
                                         ) : (

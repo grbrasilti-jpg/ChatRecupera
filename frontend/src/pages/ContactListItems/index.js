@@ -387,7 +387,7 @@ const ContactListItems = () => {
                       {contact.isWhatsappValid ? (
                         <CheckCircleIcon
                           titleAccess="Whatsapp Válido"
-                          htmlColor="green"
+                          htmlColor="blue"
                         />
                       ) : (
                         <BlockIcon

@@ -15,7 +15,7 @@ import { TicketsContext } from "../../context/Tickets/TicketsContext";
 import CheckCircleIcon from '@material-ui/icons/CheckCircle';
 import UndoRoundedIcon from '@material-ui/icons/UndoRounded';
 import Tooltip from '@material-ui/core/Tooltip';
-import { green } from '@material-ui/core/colors';
+import { blue } from '@material-ui/core/colors';
 
 
 const useStyles = makeStyles(theme => ({
@@ -41,7 +41,7 @@ const TicketActionButtonsCustom = ({ ticket }) => {
 
 	const customTheme = createTheme({
 		palette: {
-		  	primary: green,
+		  	primary: blue,
 		}
 	});
 

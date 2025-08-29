@@ -28,7 +28,7 @@ export default function ReportsContainer({ title, links }) {
 
   return (
     <Paper className={classes.mainPaper}>
-      <StyledMainHeader style={{ backgroundColor: system && system.color ? system.color : '#008080' }}>
+      <StyledMainHeader style={{ backgroundColor: system && system.color ? system.color : '#2196f3' }}>
         <span>{title}</span>
       </StyledMainHeader>
       <Box className={classes.listPaper}>

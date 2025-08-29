@@ -10,7 +10,7 @@ import TableRow from "@material-ui/core/TableRow";
 import Skeleton from "@material-ui/lab/Skeleton";
 
 import { makeStyles } from "@material-ui/core/styles";
-import { green, red } from "@material-ui/core/colors";
+import { blue, red } from "@material-ui/core/colors";
 
 import CheckCircleIcon from "@material-ui/icons/CheckCircle";
 import ErrorIcon from "@material-ui/icons/Error";
@@ -21,7 +21,7 @@ import { Tooltip } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
     on: {
-        color: green[600],
+        color: blue[600],
         fontSize: "20px",
     },
     off: {

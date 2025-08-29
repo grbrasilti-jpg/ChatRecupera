@@ -28,7 +28,7 @@ import { toast } from "react-toastify";
 const useStyles = makeStyles((theme) => ({
   online: {
     fontSize: 11,
-    color: "#25d366"
+    color: "#2196f3"
   },
   offline: {
     fontSize: 11,
@@ -119,7 +119,7 @@ const NewTicketModal = ({ modalOpen, onClose, initialContact }) => {
   //     case "instagram":
   //       return <Instagram style={{ color: "#e1306c", verticalAlign: "middle" }} />;
   //     case "whatsapp":
-  //       return <WhatsApp style={{ color: "#25d366", verticalAlign: "middle" }} />
+  //       return <WhatsApp style={{ color: "#2196f3", verticalAlign: "middle" }} />
   //     default:
   //       return "error";
   //   }
