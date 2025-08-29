@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { green, red } from '@material-ui/core/colors';
+import { blue, red } from '@material-ui/core/colors';
 import { CheckCircle, Cancel } from '@material-ui/icons';
 
 import formatHtmlToNormal from '../../../../../utils/formatHtmlToNormal';
@@ -15,7 +15,7 @@ export default function RenderLabel(label, active) {
       }}
     >
       {active ? (
-        <CheckCircle style={{ color: green[500] }} />
+        <CheckCircle style={{ color: blue[500] }} />
       ) : (
         <Cancel style={{ color: red[300] }} />
       )}

@@ -44,7 +44,7 @@ import QueueSelectCustom from "../../components/QueueSelectCustom";
 import moment from "moment";
 // ShowTicketLogModal from "../../components/ShowTicketLogModal";
 
-import { blue, green } from "@mui/material/colors";
+import { blue } from "@mui/material/colors";
 import VisibilityIcon from "@material-ui/icons/Visibility";
 import { Facebook, Forward, History, Instagram, SaveAlt, Visibility, WhatsApp } from "@mui/icons-material";
 import Autocomplete, { createFilterOptions } from '@mui/material/Autocomplete';
@@ -108,7 +108,7 @@ const useStyles = makeStyles((theme) => ({
     marginBottom: '10px', // Espaçamento entre filtros
   },
   connectionTag: {
-    background: '#4caf50',
+    background: '#2196f3',
     color: '#FFF',
     padding: '5px 10px',
     fontWeight: 'bold',
@@ -126,9 +126,9 @@ const useStyles = makeStyles((theme) => ({
     boxShadow: '0px 2px 10px rgba(0, 0, 0, 0.1)', // Sombra leve
   },
   iconButton: {
-    color: '#4caf50', // Verde no ícone
+    color: '#2196f3', // Azul no ícone
     '&:hover': {
-      color: '#388e3c', // Verde mais escuro no hover
+      color: '#1976d2', // Azul mais escuro no hover
     },
     transition: 'color 0.3s ease', // Transição suave de cor
   },
@@ -169,7 +169,7 @@ const Relatorios = () => {
   const [ticketOpen, setTicketOpen] = useState(null);
 
   const StatusCell = ({ ticket }) => {
-    const green = 'green';
+    const blue = '#2196f3';
     const red = '#f44336';
     const gray = '#9e9e9e';
   
@@ -177,7 +177,7 @@ const Relatorios = () => {
   
     switch (ticket?.status) {
       case 'ABERTO':
-        backgroundColor = green;
+        backgroundColor = blue;
         break;
       case 'FECHADO':
         backgroundColor = red;
@@ -197,7 +197,7 @@ const Relatorios = () => {
   }
 
   const QueueCell = ({ticket}) =>{
-    const green = 'green';
+    const blue = '#2196f3';
     const red = '#f44336';
     const gray = '#9e9e9e';
   

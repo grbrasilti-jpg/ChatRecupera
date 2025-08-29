@@ -52,7 +52,7 @@ const PdfTable = ({ research }) => {
         alignItems: 'center',
         marginTop: 5,
         fontSize: 7,
-        backgroundColor: system && system.color ? system.color : '#008080',
+        backgroundColor: system && system.color ? system.color : '#2196f3',
         color: '#ffffff',
         padding: 5
       }}>

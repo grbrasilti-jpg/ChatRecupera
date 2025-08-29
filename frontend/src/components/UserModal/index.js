@@ -25,7 +25,7 @@ import {
 import { Visibility, VisibilityOff } from '@material-ui/icons';
 
 import { makeStyles } from "@material-ui/core/styles";
-import { green } from "@material-ui/core/colors";
+import { blue } from "@material-ui/core/colors";
 import { i18n } from "../../translate/i18n";
 
 import api from "../../services/api";
@@ -52,7 +52,7 @@ const useStyles = makeStyles(theme => ({
 	},
 
 	buttonProgress: {
-		color: green[500],
+		color: blue[500],
 		position: "absolute",
 		top: "50%",
 		left: "50%",

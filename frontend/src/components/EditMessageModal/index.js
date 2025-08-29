@@ -240,7 +240,7 @@ const EditMessageModal = ({ open, onClose, onSave, message }) => {
                 style={{
                   width: "35px",
                   height: "35px",
-                  color:'#00A884'
+                  color:'#2196f3'
                 }}
               />
             </IconButton>

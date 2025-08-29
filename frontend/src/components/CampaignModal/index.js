@@ -13,7 +13,7 @@ import DialogContent from "@material-ui/core/DialogContent";
 import DialogTitle from "@material-ui/core/DialogTitle";
 import IconButton from "@material-ui/core/IconButton";
 import TextField from "@material-ui/core/TextField";
-import { green } from "@material-ui/core/colors";
+import { blue } from "@material-ui/core/colors";
 import { makeStyles } from "@material-ui/core/styles";
 import AttachFileIcon from "@material-ui/icons/AttachFile";
 import DeleteOutlineIcon from "@material-ui/icons/DeleteOutline";
@@ -63,7 +63,7 @@ const useStyles = makeStyles((theme) => ({
   },
 
   buttonProgress: {
-    color: green[500],
+    color: blue[500],
     position: "absolute",
     top: "50%",
     left: "50%",

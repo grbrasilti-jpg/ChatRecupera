@@ -93,7 +93,7 @@ const GroupTicketExportReport = ({ tickets, formatDate }) => {
           flexDirection: 'row',
           marginTop: 30,
           fontSize: 7,
-          backgroundColor: system && system.color ? system.color : '#008080',
+          backgroundColor: system && system.color ? system.color : '#2196f3',
           color: 'ffffff',
           alignItems: 'center',
           padding: 5 

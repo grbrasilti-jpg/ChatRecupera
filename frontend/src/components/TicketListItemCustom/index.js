@@ -12,7 +12,7 @@ import ListItemAvatar from "@material-ui/core/ListItemAvatar";
 import ListItemSecondaryAction from "@material-ui/core/ListItemSecondaryAction";
 import ListItemText from "@material-ui/core/ListItemText";
 import Typography from "@material-ui/core/Typography";
-import { blue, green, grey } from "@material-ui/core/colors";
+import { blue, grey } from "@material-ui/core/colors";
 import { makeStyles } from "@material-ui/core/styles";
 import FaceIcon from "@material-ui/icons/Face";
 import { i18n } from "../../translate/i18n";
@@ -78,7 +78,7 @@ const useStyles = makeStyles((theme) => ({
     lineHeight: "1.4",
   },
   connectionTag: {
-    background: "green",
+    background: "blue",
     color: "#FFF",
     marginRight: 1,
     padding: 1,
@@ -132,7 +132,7 @@ const useStyles = makeStyles((theme) => ({
 
   badgeStyle: {
     color: "white",
-    backgroundColor: green[500],
+    backgroundColor: blue[500],
   },
 
   acceptButton: {
@@ -187,7 +187,7 @@ const useStyles = makeStyles((theme) => ({
     },
   },
     presence: {
-    color: theme?.mode === 'light' ? "blue" : "lightgreen",
+    color: theme?.mode === 'light' ? "blue" : "lightblue",
     fontWeight: "bold",
   }
 }));
@@ -270,7 +270,7 @@ const useStyles = makeStyles((theme) => ({
 
       if (minutesDifference >= 3 && minutesDifference <= 10) {
         labelText = `(${minutesDifference} m atrás)`;
-        labelColor = 'green';
+        labelColor = 'blue';
       } else if (minutesDifference >= 30 && minutesDifference < 60) {
         labelText = `(${minutesDifference} m atrás)`;
         labelColor = 'Orange';
@@ -605,7 +605,7 @@ const useStyles = makeStyles((theme) => ({
     <>
       <ButtonWithSpinner
         style={{
-          backgroundColor: 'green',
+          backgroundColor: 'blue',
           color: 'white',
           padding: '0px',
           bottom: '17px',
@@ -647,7 +647,7 @@ const useStyles = makeStyles((theme) => ({
     <>
       <ButtonWithSpinner
         style={{
-          backgroundColor: 'green',
+          backgroundColor: 'blue',
           color: 'white',
           padding: '0px',
           bottom: '17px',

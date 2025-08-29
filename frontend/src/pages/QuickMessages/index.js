@@ -299,7 +299,7 @@ const Quickemessages = () => {
               </TableCell>
               <TableCell align="center">
         {quickemessage.geral === true ? (
-          <CheckCircleIcon style={{ color: 'green' }} />
+          <CheckCircleIcon style={{ color: 'blue' }} />
           ) : (
           ''
           )}

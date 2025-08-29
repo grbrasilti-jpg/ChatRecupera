@@ -27,7 +27,7 @@ import Typography from "@material-ui/core/Typography";
 import DeleteOutlineIcon from "@material-ui/icons/DeleteOutline";
 import AttachFileIcon from "@material-ui/icons/AttachFile";
 
-import { green } from "@material-ui/core/colors";
+import { blue } from "@material-ui/core/colors";
 
 import { i18n } from "../../translate/i18n";
 
@@ -63,7 +63,7 @@ const useStyles = makeStyles(theme => ({
     },
 
     buttonProgress: {
-        color: green[500],
+        color: blue[500],
         position: "absolute",
         top: "50%",
         left: "50%",

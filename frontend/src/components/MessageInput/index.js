@@ -9,7 +9,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
 import InputBase from "@material-ui/core/InputBase";
 import CircularProgress from "@material-ui/core/CircularProgress";
-import { green } from "@material-ui/core/colors";
+import { blue } from "@material-ui/core/colors";
 import AttachFileIcon from "@material-ui/icons/AttachFile";
 import IconButton from "@material-ui/core/IconButton";
 import MoodIcon from "@material-ui/icons/Mood";
@@ -90,7 +90,7 @@ const useStyles = makeStyles(theme => ({
 	},
 
 	circleLoading: {
-		color: green[500],
+		color: blue[500],
 		opacity: "70%",
 		position: "absolute",
 		top: "20%",
@@ -99,7 +99,7 @@ const useStyles = makeStyles(theme => ({
 	},
 
 	audioLoading: {
-		color: green[500],
+		color: blue[500],
 		opacity: "70%",
 	},
 
@@ -114,7 +114,7 @@ const useStyles = makeStyles(theme => ({
 	},
 
 	sendAudioIcon: {
-		color: "green",
+		color: "blue",
 	},
 
 	replyginMsgWrapper: {
@@ -148,7 +148,7 @@ const useStyles = makeStyles(theme => ({
 	replyginContactMsgSideColor: {
 		flex: "none",
 		width: "4px",
-		backgroundColor: "#35cd96",
+		backgroundColor: "#2196f3",
 	},
 
 	replyginSelfMsgSideColor: {

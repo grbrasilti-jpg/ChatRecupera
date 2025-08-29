@@ -121,7 +121,7 @@ const useStyles = makeStyles((theme) => ({
     textTransform: "uppercase",
     marginRight: theme.spacing(1),
     "&:hover": {
-      backgroundColor: "darkGreen",
+      backgroundColor: "darkBlue",
       color: "#FFF",
     },
     borderRadius: 30,
@@ -500,7 +500,7 @@ const TicketsManagerTabs = () => {
                   className={classes.button}
                   onClick={handleSnackbarOpen}
                 >
-                  <PlaylistAddCheckOutlinedIcon style={{ color: "green" }} />
+                  <PlaylistAddCheckOutlinedIcon style={{ color: "blue" }} />
                 </IconButton>
               </Badge>
 			   )}

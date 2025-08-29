@@ -1,12 +1,12 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core";
-import { green, red } from '@material-ui/core/colors';
+import { blue, red } from '@material-ui/core/colors';
 import CheckCircleIcon from '@material-ui/icons/CheckCircle';
 import ErrorIcon from '@material-ui/icons/Error';
 
 const useStyles = makeStyles(theme => ({
     on: {
-        color: green[600],
+        color: blue[600],
         fontSize: '20px'
     },
     off: {
